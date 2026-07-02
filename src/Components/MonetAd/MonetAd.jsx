@@ -8,6 +8,12 @@ const MonetAd = () => (
       async
       data-cfasync="false"
     ></script>
+    <script
+      src="https://quge5.com/88/tag.min.js"
+      data-zone="254813"
+      async
+      data-cfasync="false"
+    ></script>
   </Helmet>
 )
 
