@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { motion } from 'framer-motion'
 import { useUser } from '../../../store/UserContext'
-import MonetAd from '../../../Components/MonetAd/MonetAd'
 
 export const UserIndicator = ({ position }) => {
   const { userDetails, isLoggedIn } = useUser()

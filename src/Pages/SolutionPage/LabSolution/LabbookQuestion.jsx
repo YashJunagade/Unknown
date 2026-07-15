@@ -1,4 +1,3 @@
-import MonetAd from '../../../Components/MonetAd/MonetAd'
 function LabbookQuestion({ assignmentNo, setName, questionNo, questionText }) {
   function findName(setNo) {
     let setname = ''

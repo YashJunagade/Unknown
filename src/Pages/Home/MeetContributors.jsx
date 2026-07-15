@@ -10,8 +10,6 @@ import {
   ChevronDown,
   ChevronUp,
 } from 'lucide-react'
-import MonetAd from '../../Components/MonetAd/MonetAd'
-
 const RankBadge = ({ rank }) => {
   const getBadgeProps = () => {
     switch (rank) {
@@ -351,7 +349,6 @@ const MeetContributors = () => {
 
   return (
     <section className="py-8 sm:py-16">
-      <MonetAd />
       <motion.div
         className="container mx-auto px-4"
         initial={{ opacity: 0 }}

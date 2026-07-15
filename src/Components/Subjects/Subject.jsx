@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import MonetAd from '../MonetAd/MonetAd'
-
 function Subject({ subRoute, subName, imgLink }) {
   return (
       <motion.div

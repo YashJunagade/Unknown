@@ -1,7 +1,5 @@
 // ThemeContext.js
 import React, { createContext, useState, useContext, useEffect } from 'react'
-import MonetAd from '../Components/MonetAd/MonetAd'
-
 const ThemeContext = createContext()
 
 export const ThemeProvider = ({ children }) => {
@@ -22,7 +20,6 @@ export const ThemeProvider = ({ children }) => {
 
   return (
       <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <MonetAd />
       {children}
     </ThemeContext.Provider>
   )

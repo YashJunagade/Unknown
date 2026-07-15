@@ -11,7 +11,6 @@ import {
   Zap,
   Edit2,
 } from 'lucide-react'
-import MonetAd from '../../../Components/MonetAd/MonetAd'
 
 const ProgressBar = ({ progress, className = '' }) => (
   <div

@@ -3,8 +3,6 @@ import { Link, useLocation } from 'react-router-dom'
 import { ChevronDown, ChevronUp } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 import './CurvedLines.css'
-import MonetAd from '../MonetAd/MonetAd'
-
 function NestedDropdown({ title, subjects, isLast }) {
   const [isOpen, setIsOpen] = useState(false)
   const location = useLocation()
@@ -20,7 +18,6 @@ function NestedDropdown({ title, subjects, isLast }) {
 
   return (
       <div className={`relative nested-item ${isLast ? 'last-item' : ''}`}>
-      <MonetAd />
       <div
         className={`flex items-center justify-between px-6 py-2 cursor-pointer hover:bg-accent transition-colors duration-200 rounded hover:text-white ${
           isOpen ? 'text-accent' : ''

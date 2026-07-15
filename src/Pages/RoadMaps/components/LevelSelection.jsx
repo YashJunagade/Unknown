@@ -1,6 +1,5 @@
 import React from 'react'
 import { Trophy, GraduationCap, Target } from 'lucide-react'
-import MonetAd from '../../../Components/MonetAd/MonetAd'
 
 const LevelCard = ({ icon: Icon, title, description, onClick }) => (
   <button

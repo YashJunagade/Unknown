@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import MonetAd from '../../Components/MonetAd/MonetAd'
 
 function FeaturesContainer({
   imgLink,

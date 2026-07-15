@@ -1,6 +1,5 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import MonetAd from '../../../Components/MonetAd/MonetAd'
 
 export const TopicButton = ({
   point,

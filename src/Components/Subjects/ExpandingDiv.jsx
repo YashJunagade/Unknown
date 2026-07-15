@@ -3,8 +3,6 @@ import { useLocation } from 'react-router-dom'
 import { motion, AnimatePresence, useAnimationControls } from 'framer-motion'
 import Subject from './Subject'
 import { ChevronDown, ChevronUp } from 'lucide-react'
-import MonetAd from '../MonetAd/MonetAd'
-
 function ExpandingDiv({ subjects, title }) {
   const [showSubjects, setShowSubjects] = useState(false)
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 })

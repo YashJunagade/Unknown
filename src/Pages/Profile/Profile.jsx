@@ -6,8 +6,6 @@ import { useNavigate } from 'react-router-dom'
 import Sidebar from '../../Components/SideBar/SideBar'
 import { FaRegEdit } from 'react-icons/fa'
 import { ImCross } from 'react-icons/im'
-import MonetAd from '../../Components/MonetAd/MonetAd'
-
 function Profile() {
   const { userDetails, loading, isLoggedIn, updateProfilePic } = useUser()
   const navigate = useNavigate()
@@ -51,7 +49,6 @@ function Profile() {
 
   return (
       <div className="md:ml-52 md:mt-16 lg:ml-60 md:flex dark:text-white text-black h-screen">
-      <MonetAd />
       {/* Sidebar should have a fixed width */}
       {/* <Sidebar className="w-1/4 md:w-1/5"></Sidebar> */}
 

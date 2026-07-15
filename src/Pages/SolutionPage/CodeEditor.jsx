@@ -10,8 +10,6 @@ import AskDevaButton from './Deva/AskDeva'
 import { motion } from 'framer-motion'
 import { useTheme } from '../../store/ThemeContext'
 import { useUser } from '../../store/UserContext'
-import MonetAd from '../../Components/MonetAd/MonetAd'
-
 const apiKeys = [
   import.meta.env.VITE_GROQ_API_KEY_1,
   import.meta.env.VITE_GROQ_API_KEY_2,
