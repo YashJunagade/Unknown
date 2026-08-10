@@ -23,7 +23,6 @@ import ResetPassword from './Pages/Auth/ResetPassword/ResetPassword'
 import Navbar from '../src/Components/Navbar/Navbar'
 import PrivateRoute from './PrivateRoute'
 import Privacy from './Pages/PrivacyPolicy/Privacy'
-import AiTools from './Pages/AiTools/AiTools'
 import RoadmapView from './Pages/RoadMaps/RoadmapView'
 import UnderConstruction from './Pages/RoadMaps/UnderConstruction'
 import { useEffect } from 'react'
@@ -60,7 +59,6 @@ const App = () => {
         <Route path="/:subjectId/slipList" element={<SlipList />} />
         <Route path="/:subjectId/labList" element={<LabList />} />
         <Route path="/labbook" element={<Labbook />} />
-        <Route path="/ai-tools" element={<AiTools />} />
         <Route path="/roadmaps" element={<Roadmaps />} />
         <Route path="/dsa" element={<Dsa />} />
         <Route path="/roadmaps/:roadmapName" element={<RoadmapView />} />
